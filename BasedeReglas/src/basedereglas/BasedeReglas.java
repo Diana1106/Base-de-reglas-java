@@ -27,8 +27,6 @@ public class BasedeReglas {
         
         int mariaEstima = Integer.parseInt(a.nextLine());
         
-        while(!mariaEstima){};
-        
         System.out.println("OPCION 1: ¿Quienes estima Maria? escriba número 1: ");
         System.out.println("OPCION 2: ¿Quienes no estima Maria porque no saben bailar? escriba número 2: ");
         
@@ -49,7 +47,6 @@ public class BasedeReglas {
                 break;
                 
         };
-        a.next();
         
     }
     
